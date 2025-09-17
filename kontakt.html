@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - TechLounge</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#fafafa; color:#222; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:12px 20px; border-bottom:1px solid #ddd; background:#fff; }
+    header img { height:40px; }
+    nav a { margin-left:16px; text-decoration:none; color:#444; font-weight:600; }
+    nav a:hover { color:#000; }
+    main { max-width:800px; margin:40px auto; padding:0 20px; }
+    form { display:grid; gap:12px; max-width:400px; }
+    input, textarea { padding:10px; border:1px solid #ccc; border-radius:4px; font-family:inherit; }
+    button { padding:10px; background:#444; color:#fff; border:none; border-radius:4px; font-weight:600; cursor:pointer; }
+    button:hover { background:#000; }
+    footer { text-align:center; padding:12px; font-size:13px; color:#666; border-top:1px solid #ddd; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="TechLounge Logo">
+    <nav>
+      <a href="index.html">Über uns</a>
+      <a href="speisekarte.html">Speisekarte</a>
+      <a href="preise.html">Preise</a>
+      <a href="standort.html">Standort</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Kontakt</h1>
+    <p>Telefon: 0123 456789</p>
+    <p>Email: info@techlounge.de</p>
+
+    <h2>Schreib uns eine Nachricht</h2>
+    <form>
+      <input type="text" placeholder="Dein Name" required>
+      <input type="email" placeholder="Deine Email" required>
+      <textarea rows="5" placeholder="Nachricht"></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </main>
+
+  <footer>
+    © 2025 TechLounge – Alle Rechte vorbehalten
+  </footer>
+</body>
+</html>
